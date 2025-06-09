@@ -352,6 +352,6 @@ D:/qtproj/pcbuilder/mainwindow.h
  mdp:D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/moc_predefs.h
  mdp:D:/qtproj/pcbuilder/mainwindow.h
+D:/qtproj/pcbuilder/main.cpp
 D:/qtproj/pcbuilder/mainwindow.cpp
  uic:./ui_mainwindow.h
-D:/qtproj/pcbuilder/main.cpp
