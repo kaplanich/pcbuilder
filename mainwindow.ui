@@ -12,8 +12,13 @@
   </property>
   <property name="minimumSize">
    <size>
+<<<<<<< HEAD
     <width>1300</width>
     <height>830</height>
+=======
+    <width>1100</width>
+    <height>630</height>
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
    </size>
   </property>
   <property name="windowTitle">
@@ -454,11 +459,16 @@ border-radius: 21px;</string>
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
+<<<<<<< HEAD
                   <height>60</height>
+=======
+                  <height>50</height>
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
                  </size>
                 </property>
                 <layout class="QHBoxLayout" name="horizontalLayout_6">
                  <item>
+<<<<<<< HEAD
                   <widget class="QComboBox" name="buildType">
                    <property name="minimumSize">
                     <size>
@@ -466,12 +476,16 @@ border-radius: 21px;</string>
                      <height>0</height>
                     </size>
                    </property>
+=======
+                  <widget class="QListView" name="buildType">
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
                    <property name="maximumSize">
                     <size>
                      <width>39</width>
                      <height>39</height>
                     </size>
                    </property>
+<<<<<<< HEAD
                    <property name="styleSheet">
                     <string notr="true">background-color: rgba(42, 42, 42, 1);
 border-radius: 12px;
@@ -498,13 +512,23 @@ border-radius: 12px;
                      <string>Office</string>
                     </property>
                    </item>
+=======
+                   <property name="font">
+                    <font>
+                     <pointsize>11</pointsize>
+                    </font>
+                   </property>
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
                   </widget>
                  </item>
                  <item>
                   <widget class="QLineEdit" name="buildName">
                    <property name="font">
                     <font>
+<<<<<<< HEAD
                      <family>Inter</family>
+=======
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
                      <pointsize>13</pointsize>
                      <bold>true</bold>
                     </font>
@@ -535,7 +559,11 @@ border-radius: 12px;
                    </property>
                    <property name="styleSheet">
                     <string notr="true">background-color: rgba(42, 42, 42, 1);
+<<<<<<< HEAD
 border-radius: 9px;
+=======
+border-radius: 12px;
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
 </string>
                    </property>
                    <property name="text">
@@ -558,7 +586,11 @@ border-radius: 9px;
                    </property>
                    <property name="styleSheet">
                     <string notr="true">background-color: rgba(42, 42, 42, 1);
+<<<<<<< HEAD
 border-radius: 9px;
+=======
+border-radius: 12px;
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
 </string>
                    </property>
                    <property name="text">
@@ -573,6 +605,7 @@ border-radius: 9px;
                <widget class="QWidget" name="middleFrame" native="true">
                 <layout class="QHBoxLayout" name="horizontalLayout_5">
                  <item>
+<<<<<<< HEAD
                   <widget class="QWidget" name="estimPerf" native="true">
                    <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0">
                     <property name="spacing">
@@ -646,11 +679,18 @@ border-radius: 9px;
                     </item>
                    </layout>
                   </widget>
+=======
+                  <widget class="QWidget" name="widget_3" native="true"/>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="widget_4" native="true"/>
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
                  </item>
                 </layout>
                </widget>
               </item>
               <item>
+<<<<<<< HEAD
                <widget class="QWidget" name="totalCostFrame" native="true">
                 <property name="minimumSize">
                  <size>
@@ -659,6 +699,9 @@ border-radius: 9px;
                  </size>
                 </property>
                </widget>
+=======
+               <widget class="QWidget" name="totalCostFrame" native="true"/>
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
               </item>
              </layout>
             </widget>

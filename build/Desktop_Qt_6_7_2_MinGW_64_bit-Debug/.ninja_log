@@ -1,4 +1,5 @@
 # ninja log v6
+<<<<<<< HEAD
 40	200	7710274487280977	pcbuilder_autogen/timestamp	6f99b267e6f0878f
 2429	2711	7710274511176412	pcbuilder.exe	4f85c8f9ce195a4e
 236	2223	7695825333045039	CMakeFiles/pcbuilder.dir/main.cpp.obj	f802c6beb6c13bf1
@@ -79,3 +80,51 @@
 27	187	7710298980123928	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
 188	2448	7710298981731233	CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj	765c1b2ec255cb35
 2449	2742	7710299004339641	pcbuilder.exe	4f85c8f9ce195a4e
+=======
+11	192	7692020526736520	pcbuilder_autogen/timestamp	6f99b267e6f0878f
+939	3410	7691978254221768	CMakeFiles/pcbuilder.dir/main.cpp.obj	f802c6beb6c13bf1
+11	192	7692020526736520	pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+2233	2500	7692020548953459	pcbuilder.exe	4f85c8f9ce195a4e
+11	192	7692020526736520	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/timestamp	6f99b267e6f0878f
+11	192	7692020526736520	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+892	3380	7691978253751641	CMakeFiles/pcbuilder.dir/pcbuilder_autogen/mocs_compilation.cpp.obj	2d2d64d259d05472
+192	2233	7692020528546095	CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj	765c1b2ec255cb35
+198	268	7691999631799899	pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp	de038ce131e4396c
+198	268	7691999631799899	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp	de038ce131e4396c
+296	539	7691999632190233	CMakeFiles/pcbuilder.dir/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp.obj	cbef776bacc831f9
+38	717	7695457925669274	pcbuilder_autogen/timestamp	6f99b267e6f0878f
+38	717	7695457925669274	pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+38	717	7695457925669274	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/timestamp	6f99b267e6f0878f
+38	717	7695457925669274	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+718	824	7695457927225378	pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp	de038ce131e4396c
+718	824	7695457927225378	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp	de038ce131e4396c
+860	1574	7695457927680651	CMakeFiles/pcbuilder.dir/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp.obj	cbef776bacc831f9
+824	2877	7695457927321201	CMakeFiles/pcbuilder.dir/pcbuilder_autogen/mocs_compilation.cpp.obj	2d2d64d259d05472
+850	2902	7695457927572470	CMakeFiles/pcbuilder.dir/main.cpp.obj	f802c6beb6c13bf1
+854	3158	7695457927625972	CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj	765c1b2ec255cb35
+3158	3920	7695457950663962	pcbuilder.exe	4f85c8f9ce195a4e
+26	196	7695458194624727	pcbuilder_autogen/timestamp	6f99b267e6f0878f
+26	196	7695458194624727	pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+26	196	7695458194624727	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/timestamp	6f99b267e6f0878f
+26	196	7695458194624727	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+196	1993	7695458196339147	CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj	765c1b2ec255cb35
+1995	2230	7695458214322886	pcbuilder.exe	4f85c8f9ce195a4e
+7	138	7695483273868815	pcbuilder_autogen/timestamp	6f99b267e6f0878f
+7	138	7695483273868815	pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+7	138	7695483273868815	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/timestamp	6f99b267e6f0878f
+7	138	7695483273868815	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+138	2135	7695483275173588	CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj	765c1b2ec255cb35
+2135	2398	7695483295154884	pcbuilder.exe	4f85c8f9ce195a4e
+8	186	7695818720389976	pcbuilder_autogen/timestamp	6f99b267e6f0878f
+8	186	7695818720389976	pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+8	186	7695818720389976	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/timestamp	6f99b267e6f0878f
+8	186	7695818720389976	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+187	2456	7695818722191688	CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj	765c1b2ec255cb35
+2456	3229	7695818744877426	pcbuilder.exe	4f85c8f9ce195a4e
+26	181	7695819005450421	pcbuilder_autogen/timestamp	6f99b267e6f0878f
+26	181	7695819005450421	pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+26	181	7695819005450421	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/timestamp	6f99b267e6f0878f
+26	181	7695819005450421	D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/pcbuilder_autogen/mocs_compilation.cpp	6f99b267e6f0878f
+183	2103	7695819007015488	CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj	765c1b2ec255cb35
+2103	2338	7695819026221454	pcbuilder.exe	4f85c8f9ce195a4e
+>>>>>>> 72fa783656d41eb56380a0a162c51eb65710fee7
