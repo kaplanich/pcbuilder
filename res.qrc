@@ -3,5 +3,6 @@
         <file>resources/icons/ame.png</file>
         <file>resources/icons/bell.png</file>
         <file>resources/icons/loupe.png</file>
+        <file>resources/icons/case.png</file>
     </qresource>
 </RCC>

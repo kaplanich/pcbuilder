@@ -193,7 +193,7 @@ build pcbuilder_autogen/timestamp pcbuilder_autogen/mocs_compilation.cpp | ${cma
 #############################################
 # Custom command for pcbuilder_autogen\EWIEGA46WW\qrc_res.cpp
 
-build pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp: CUSTOM_COMMAND D$:/qtproj/pcbuilder/res.qrc CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json D$:/qtproj/pcbuilder/resources/icons/bell.png D$:/qtproj/pcbuilder/resources/icons/ame.png D$:/qtproj/pcbuilder/resources/icons/loupe.png D$:/Qt/6.7.2/mingw_64/./bin/rcc.exe D$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || pcbuilder_autogen pcbuilder_autogen_timestamp_deps
+build pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp: CUSTOM_COMMAND D$:/qtproj/pcbuilder/res.qrc CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json D$:/qtproj/pcbuilder/resources/icons/bell.png D$:/qtproj/pcbuilder/resources/icons/ame.png D$:/qtproj/pcbuilder/resources/icons/case.png D$:/qtproj/pcbuilder/resources/icons/loupe.png D$:/Qt/6.7.2/mingw_64/./bin/rcc.exe D$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || pcbuilder_autogen pcbuilder_autogen_timestamp_deps
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\qtproj\pcbuilder\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc D:/qtproj/pcbuilder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for res.qrc
   restat = 1
