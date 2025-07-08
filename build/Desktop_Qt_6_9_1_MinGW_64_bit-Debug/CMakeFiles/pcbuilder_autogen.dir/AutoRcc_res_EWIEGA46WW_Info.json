@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen",
+	"CMAKE_BINARY_DIR" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "X:/qtproj/pcbuilder",
+	"CMAKE_SOURCE_DIR" : "X:/qtproj/pcbuilder",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include",
+	"INPUTS" : 
+	[
+		"X:/qtproj/pcbuilder/resources/fonts/Inter/Inter-VariableFont_opsz,wght.ttf",
+		"X:/qtproj/pcbuilder/resources/icons/bell.png",
+		"X:/qtproj/pcbuilder/resources/icons/ame.png",
+		"X:/qtproj/pcbuilder/resources/icons/case.png",
+		"X:/qtproj/pcbuilder/resources/icons/loupe.png"
+	],
+	"LOCK_FILE" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "X:/qt/6.9.1/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Used.txt",
+	"SOURCE" : "X:/qtproj/pcbuilder/res.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

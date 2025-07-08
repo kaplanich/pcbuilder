@@ -24,6 +24,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         res.qrc
+        editandmore.h editandmore.cpp
+
 
     )
 # Define target properties for Android with Qt 6 as:
@@ -59,6 +61,8 @@ set_target_properties(pcbuilder PROPERTIES
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
 include(GNUInstallDirs)
 install(TARGETS pcbuilder

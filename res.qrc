@@ -5,4 +5,7 @@
         <file>resources/icons/loupe.png</file>
         <file>resources/icons/case.png</file>
     </qresource>
+    <qresource prefix="/fonts">
+        <file>resources/fonts/Inter/Inter-VariableFont_opsz,wght.ttf</file>
+    </qresource>
 </RCC>
