@@ -151,12 +151,15 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/6.9.1/mingw_64/include/QtGui/qtransform.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qwindowdefs.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qwindowdefs_win.h \
-  X:/qt/6.9.1/mingw_64/include/QtWidgets/QGridLayout \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/QGroupBox \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/QHBoxLayout \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/QPushButton \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/QWidget \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qabstractbutton.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qboxlayout.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qframe.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qgridlayout.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qgroupbox.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qlayout.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qlayoutitem.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qpushbutton.h \

@@ -9,10 +9,10 @@
 	"INCLUDE_DIR" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include",
 	"INPUTS" : 
 	[
-		"X:/qtproj/pcbuilder/resources/fonts/Inter/Inter-VariableFont_opsz,wght.ttf",
 		"X:/qtproj/pcbuilder/resources/icons/bell.png",
 		"X:/qtproj/pcbuilder/resources/icons/ame.png",
 		"X:/qtproj/pcbuilder/resources/icons/case.png",
+		"X:/qtproj/pcbuilder/resources/icons/Shhh.svg",
 		"X:/qtproj/pcbuilder/resources/icons/loupe.png"
 	],
 	"LOCK_FILE" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",

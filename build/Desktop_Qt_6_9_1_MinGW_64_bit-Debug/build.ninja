@@ -81,6 +81,46 @@ build CMakeFiles/pcbuilder.dir/editandmore.cpp.obj: CXX_COMPILER__pcbuilder_unsc
   OBJECT_DIR = CMakeFiles\pcbuilder.dir
   OBJECT_FILE_DIR = CMakeFiles\pcbuilder.dir
 
+build CMakeFiles/pcbuilder.dir/buildtypeselection.cpp.obj: CXX_COMPILER__pcbuilder_unscanned_Debug X$:/qtproj/pcbuilder/buildtypeselection.cpp || cmake_object_order_depends_target_pcbuilder
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\pcbuilder.dir\buildtypeselection.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IX:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include -IX:/qtproj/pcbuilder -isystem X:/qt/6.9.1/mingw_64/include/QtCore -isystem X:/qt/6.9.1/mingw_64/include -isystem X:/qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem X:/qt/6.9.1/mingw_64/include/QtWidgets -isystem X:/qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\pcbuilder.dir
+  OBJECT_FILE_DIR = CMakeFiles\pcbuilder.dir
+
+build CMakeFiles/pcbuilder.dir/stackedbudgetbar.cpp.obj: CXX_COMPILER__pcbuilder_unscanned_Debug X$:/qtproj/pcbuilder/stackedbudgetbar.cpp || cmake_object_order_depends_target_pcbuilder
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\pcbuilder.dir\stackedbudgetbar.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IX:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include -IX:/qtproj/pcbuilder -isystem X:/qt/6.9.1/mingw_64/include/QtCore -isystem X:/qt/6.9.1/mingw_64/include -isystem X:/qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem X:/qt/6.9.1/mingw_64/include/QtWidgets -isystem X:/qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\pcbuilder.dir
+  OBJECT_FILE_DIR = CMakeFiles\pcbuilder.dir
+
+build CMakeFiles/pcbuilder.dir/computerpart.cpp.obj: CXX_COMPILER__pcbuilder_unscanned_Debug X$:/qtproj/pcbuilder/computerpart.cpp || cmake_object_order_depends_target_pcbuilder
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\pcbuilder.dir\computerpart.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IX:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include -IX:/qtproj/pcbuilder -isystem X:/qt/6.9.1/mingw_64/include/QtCore -isystem X:/qt/6.9.1/mingw_64/include -isystem X:/qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem X:/qt/6.9.1/mingw_64/include/QtWidgets -isystem X:/qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\pcbuilder.dir
+  OBJECT_FILE_DIR = CMakeFiles\pcbuilder.dir
+
+build CMakeFiles/pcbuilder.dir/buildeditdialog.cpp.obj: CXX_COMPILER__pcbuilder_unscanned_Debug X$:/qtproj/pcbuilder/buildeditdialog.cpp || cmake_object_order_depends_target_pcbuilder
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\pcbuilder.dir\buildeditdialog.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IX:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include -IX:/qtproj/pcbuilder -isystem X:/qt/6.9.1/mingw_64/include/QtCore -isystem X:/qt/6.9.1/mingw_64/include -isystem X:/qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem X:/qt/6.9.1/mingw_64/include/QtWidgets -isystem X:/qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\pcbuilder.dir
+  OBJECT_FILE_DIR = CMakeFiles\pcbuilder.dir
+
+build CMakeFiles/pcbuilder.dir/componenttile.cpp.obj: CXX_COMPILER__pcbuilder_unscanned_Debug X$:/qtproj/pcbuilder/componenttile.cpp || cmake_object_order_depends_target_pcbuilder
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\pcbuilder.dir\componenttile.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IX:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include -IX:/qtproj/pcbuilder -isystem X:/qt/6.9.1/mingw_64/include/QtCore -isystem X:/qt/6.9.1/mingw_64/include -isystem X:/qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem X:/qt/6.9.1/mingw_64/include/QtWidgets -isystem X:/qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\pcbuilder.dir
+  OBJECT_FILE_DIR = CMakeFiles\pcbuilder.dir
+
 build CMakeFiles/pcbuilder.dir/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp.obj: CXX_COMPILER__pcbuilder_unscanned_Debug X$:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp || cmake_object_order_depends_target_pcbuilder
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\pcbuilder.dir\pcbuilder_autogen\EWIEGA46WW\qrc_res.cpp.obj.d
@@ -97,7 +137,7 @@ build CMakeFiles/pcbuilder.dir/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp.obj: CXX
 #############################################
 # Link the executable pcbuilder.exe
 
-build pcbuilder.exe: CXX_EXECUTABLE_LINKER__pcbuilder_Debug CMakeFiles/pcbuilder.dir/pcbuilder_autogen/mocs_compilation.cpp.obj CMakeFiles/pcbuilder.dir/main.cpp.obj CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj CMakeFiles/pcbuilder.dir/editandmore.cpp.obj CMakeFiles/pcbuilder.dir/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp.obj | X$:/qt/6.9.1/mingw_64/lib/libQt6Widgets.a X$:/qt/6.9.1/mingw_64/lib/libQt6Gui.a X$:/qt/6.9.1/mingw_64/lib/libQt6Core.a X$:/qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a || pcbuilder_autogen pcbuilder_autogen_timestamp_deps
+build pcbuilder.exe: CXX_EXECUTABLE_LINKER__pcbuilder_Debug CMakeFiles/pcbuilder.dir/pcbuilder_autogen/mocs_compilation.cpp.obj CMakeFiles/pcbuilder.dir/main.cpp.obj CMakeFiles/pcbuilder.dir/mainwindow.cpp.obj CMakeFiles/pcbuilder.dir/editandmore.cpp.obj CMakeFiles/pcbuilder.dir/buildtypeselection.cpp.obj CMakeFiles/pcbuilder.dir/stackedbudgetbar.cpp.obj CMakeFiles/pcbuilder.dir/computerpart.cpp.obj CMakeFiles/pcbuilder.dir/buildeditdialog.cpp.obj CMakeFiles/pcbuilder.dir/componenttile.cpp.obj CMakeFiles/pcbuilder.dir/pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp.obj | X$:/qt/6.9.1/mingw_64/lib/libQt6Widgets.a X$:/qt/6.9.1/mingw_64/lib/libQt6Gui.a X$:/qt/6.9.1/mingw_64/lib/libQt6Core.a X$:/qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a || pcbuilder_autogen pcbuilder_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = X:/qt/6.9.1/mingw_64/lib/libQt6Widgets.a  X:/qt/6.9.1/mingw_64/lib/libQt6Gui.a  X:/qt/6.9.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  X:/qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -184,7 +224,7 @@ build pcbuilder_autogen_timestamp_deps: phony
 #############################################
 # Utility command for pcbuilder_autogen
 
-build pcbuilder_autogen: phony CMakeFiles/pcbuilder_autogen pcbuilder_autogen/include/ui_mainwindow.h pcbuilder_autogen/timestamp pcbuilder_autogen/mocs_compilation.cpp pcbuilder_autogen_timestamp_deps
+build pcbuilder_autogen: phony CMakeFiles/pcbuilder_autogen pcbuilder_autogen/include/ui_mainwindow.h pcbuilder_autogen/include/ui_buildtypeselection.h pcbuilder_autogen/include/ui_buildeditdialog.h pcbuilder_autogen/timestamp pcbuilder_autogen/mocs_compilation.cpp pcbuilder_autogen_timestamp_deps
 
 
 #############################################
@@ -201,7 +241,7 @@ build pcbuilder_autogen/timestamp pcbuilder_autogen/mocs_compilation.cpp | ${cma
 #############################################
 # Custom command for pcbuilder_autogen\EWIEGA46WW\qrc_res.cpp
 
-build pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp: CUSTOM_COMMAND X$:/qtproj/pcbuilder/res.qrc CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json X$:/qtproj/pcbuilder/resources/fonts/Inter/Inter-VariableFont_opsz,wght.ttf X$:/qtproj/pcbuilder/resources/icons/bell.png X$:/qtproj/pcbuilder/resources/icons/ame.png X$:/qtproj/pcbuilder/resources/icons/case.png X$:/qtproj/pcbuilder/resources/icons/loupe.png X$:/qt/6.9.1/mingw_64/bin/rcc.exe X$:/qt/6.9.1/mingw_64/bin/rcc.exe || pcbuilder_autogen pcbuilder_autogen_timestamp_deps
+build pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp: CUSTOM_COMMAND X$:/qtproj/pcbuilder/res.qrc CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json X$:/qtproj/pcbuilder/resources/icons/bell.png X$:/qtproj/pcbuilder/resources/icons/ame.png X$:/qtproj/pcbuilder/resources/icons/case.png X$:/qtproj/pcbuilder/resources/icons/Shhh.svg X$:/qtproj/pcbuilder/resources/icons/loupe.png X$:/qt/6.9.1/mingw_64/bin/rcc.exe X$:/qt/6.9.1/mingw_64/bin/rcc.exe || pcbuilder_autogen pcbuilder_autogen_timestamp_deps
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D X:\qtproj\pcbuilder\build\Desktop_Qt_6_9_1_MinGW_64_bit-Debug && X:\qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for res.qrc
   restat = 1
@@ -210,7 +250,7 @@ build pcbuilder_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}pcbuilder
 #############################################
 # Phony custom command for CMakeFiles\pcbuilder_autogen
 
-build CMakeFiles/pcbuilder_autogen pcbuilder_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/pcbuilder_autogen ${cmake_ninja_workdir}pcbuilder_autogen/include/ui_mainwindow.h: phony pcbuilder_autogen/timestamp || pcbuilder_autogen_timestamp_deps
+build CMakeFiles/pcbuilder_autogen pcbuilder_autogen/include/ui_mainwindow.h pcbuilder_autogen/include/ui_buildtypeselection.h pcbuilder_autogen/include/ui_buildeditdialog.h | ${cmake_ninja_workdir}CMakeFiles/pcbuilder_autogen ${cmake_ninja_workdir}pcbuilder_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}pcbuilder_autogen/include/ui_buildtypeselection.h ${cmake_ninja_workdir}pcbuilder_autogen/include/ui_buildeditdialog.h: phony pcbuilder_autogen/timestamp || pcbuilder_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

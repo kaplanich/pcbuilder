@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6da8aab26f7393f16e8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pcbuilder",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pcbuilder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcbuilder-Debug-3be5fa371c31c00deebb.json",
+					"name" : "pcbuilder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcbuilder_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcbuilder_autogen-Debug-2e1c5c53ba9591cd5f1e.json",
+					"name" : "pcbuilder_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcbuilder_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcbuilder_autogen_timestamp_deps-Debug-260e224eeb45c93436c2.json",
+					"name" : "pcbuilder_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+		"source" : "X:/qtproj/pcbuilder"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

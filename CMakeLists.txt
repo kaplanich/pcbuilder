@@ -20,11 +20,24 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Core)
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+
     qt_add_executable(pcbuilder
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         res.qrc
         editandmore.h editandmore.cpp
+        buildtypeselection.h buildtypeselection.cpp buildtypeselection.ui
+        stackedbudgetbar.h stackedbudgetbar.cpp
+        computerpart.h computerpart.cpp
+        buildeditdialog.h buildeditdialog.cpp buildeditdialog.ui
+        componenttile.h componenttile.cpp
+
+
+
 
 
     )
@@ -47,6 +60,10 @@ else()
 endif()
 
 target_link_libraries(pcbuilder PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(pcbuilder PRIVATE Qt6::Widgets)
+target_link_libraries(pcbuilder PRIVATE Qt6::Core Qt6::Widgets)
+target_link_libraries(pcbuilder PRIVATE Qt6::Core)
+target_link_libraries(pcbuilder PRIVATE Qt6::Widgets)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

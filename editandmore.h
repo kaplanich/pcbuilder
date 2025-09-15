@@ -3,15 +3,15 @@
 
 #include <QWidget>
 #include <QPushButton>
-#include <QGridLayout>
+#include <QHBoxLayout>
+#include <QGroupBox>
 
 class EditAndMore : public QWidget
 {
     Q_OBJECT
 public:
     explicit EditAndMore(QWidget *parent = nullptr);
-
-private:
+    QGroupBox* mainFrame;
     QPushButton* editBtn;
     QPushButton* moreBtn;
 
