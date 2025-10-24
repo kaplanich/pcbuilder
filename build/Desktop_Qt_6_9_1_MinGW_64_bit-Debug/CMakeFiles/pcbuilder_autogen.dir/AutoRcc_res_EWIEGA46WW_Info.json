@@ -9,11 +9,19 @@
 	"INCLUDE_DIR" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/include",
 	"INPUTS" : 
 	[
+		"X:/qtproj/pcbuilder/resources/db/request.sql",
+		"X:/qtproj/pcbuilder/resources/icons/ssd.jpg",
+		"X:/qtproj/pcbuilder/resources/icons/motherboard.jpg",
 		"X:/qtproj/pcbuilder/resources/icons/bell.png",
+		"X:/qtproj/pcbuilder/resources/icons/psu.jpg",
+		"X:/qtproj/pcbuilder/resources/icons/rtx4090.jpg",
 		"X:/qtproj/pcbuilder/resources/icons/ame.png",
+		"X:/qtproj/pcbuilder/resources/icons/14900k.jpg",
+		"X:/qtproj/pcbuilder/resources/icons/ramfury.jpg",
 		"X:/qtproj/pcbuilder/resources/icons/case.png",
 		"X:/qtproj/pcbuilder/resources/icons/Shhh.svg",
-		"X:/qtproj/pcbuilder/resources/icons/loupe.png"
+		"X:/qtproj/pcbuilder/resources/icons/loupe.png",
+		"X:/qtproj/pcbuilder/resources/icons/cooler.png"
 	],
 	"LOCK_FILE" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/pcbuilder_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

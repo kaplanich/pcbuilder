@@ -365,6 +365,54 @@
 		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateConfigVersion.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateConfigVersionImpl.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateDependencies.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6SqlPrivate/Qt6SqlPrivateVersionlessAliasTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets-relwithdebinfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QIBaseDriverPluginAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets-relwithdebinfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QOCIDriverPluginConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QOCIDriverPluginTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QOCIDriverPluginTargets-relwithdebinfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QOCIDriverPluginAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake",
+		"X:/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
+		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake",
 		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"X:/qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -501,45 +549,129 @@
 	"HEADERS" : 
 	[
 		[
-			"X:/qtproj/pcbuilder/buildeditdialog.h",
+			"X:/qtproj/pcbuilder/forms/addcomponentswindow.h",
 			"MU",
-			"EWIEGA46WW/moc_buildeditdialog.cpp",
+			"QM7UNKGVG2/moc_addcomponentswindow.cpp",
 			null
 		],
 		[
-			"X:/qtproj/pcbuilder/buildtypeselection.h",
+			"X:/qtproj/pcbuilder/forms/buildeditdialog.h",
 			"MU",
-			"EWIEGA46WW/moc_buildtypeselection.cpp",
+			"QM7UNKGVG2/moc_buildeditdialog.cpp",
 			null
 		],
 		[
-			"X:/qtproj/pcbuilder/componenttile.h",
+			"X:/qtproj/pcbuilder/forms/buildtypeselection.h",
 			"MU",
-			"EWIEGA46WW/moc_componenttile.cpp",
+			"QM7UNKGVG2/moc_buildtypeselection.cpp",
 			null
 		],
 		[
-			"X:/qtproj/pcbuilder/computerpart.h",
+			"X:/qtproj/pcbuilder/libs/ComponentsLib.h",
 			"MU",
-			"EWIEGA46WW/moc_computerpart.cpp",
+			"FPDX4F53LH/moc_ComponentsLib.cpp",
 			null
 		],
 		[
-			"X:/qtproj/pcbuilder/editandmore.h",
+			"X:/qtproj/pcbuilder/libs/build.h",
 			"MU",
-			"EWIEGA46WW/moc_editandmore.cpp",
+			"FPDX4F53LH/moc_build.cpp",
 			null
 		],
 		[
-			"X:/qtproj/pcbuilder/mainwindow.h",
+			"X:/qtproj/pcbuilder/libs/case.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"FPDX4F53LH/moc_case.cpp",
 			null
 		],
 		[
-			"X:/qtproj/pcbuilder/stackedbudgetbar.h",
+			"X:/qtproj/pcbuilder/libs/component.h",
 			"MU",
-			"EWIEGA46WW/moc_stackedbudgetbar.cpp",
+			"FPDX4F53LH/moc_component.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/componentfactory.h",
+			"MU",
+			"FPDX4F53LH/moc_componentfactory.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/componentlistwidget.h",
+			"MU",
+			"FPDX4F53LH/moc_componentlistwidget.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/componenttile.h",
+			"MU",
+			"FPDX4F53LH/moc_componenttile.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/componentwidget.h",
+			"MU",
+			"FPDX4F53LH/moc_componentwidget.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/coolingsystem.h",
+			"MU",
+			"FPDX4F53LH/moc_coolingsystem.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/editandmore.h",
+			"MU",
+			"FPDX4F53LH/moc_editandmore.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/graphiccard.h",
+			"MU",
+			"FPDX4F53LH/moc_graphiccard.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/mainwindow.h",
+			"MU",
+			"FPDX4F53LH/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/motherboard.h",
+			"MU",
+			"FPDX4F53LH/moc_motherboard.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/processor.h",
+			"MU",
+			"FPDX4F53LH/moc_processor.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/psu.h",
+			"MU",
+			"FPDX4F53LH/moc_psu.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/ram.h",
+			"MU",
+			"FPDX4F53LH/moc_ram.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/stackedbudgetbar.h",
+			"MU",
+			"FPDX4F53LH/moc_stackedbudgetbar.cpp",
+			null
+		],
+		[
+			"X:/qtproj/pcbuilder/libs/storage.h",
+			"MU",
+			"FPDX4F53LH/moc_storage.cpp",
 			null
 		]
 	],
@@ -552,6 +684,7 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NEEDS_QMAIN",
+		"QT_SQL_LIB",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
@@ -569,12 +702,14 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
 		"X:/qtproj/pcbuilder",
 		"X:/qt/6.9.1/mingw_64/include/QtCore",
 		"X:/qt/6.9.1/mingw_64/include",
 		"X:/qt/6.9.1/mingw_64/mkspecs/win32-g++",
 		"X:/qt/6.9.1/mingw_64/include/QtWidgets",
 		"X:/qt/6.9.1/mingw_64/include/QtGui",
+		"X:/qt/6.9.1/mingw_64/include/QtSql",
 		"X:/qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
 		"X:/qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
 		"X:/qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
@@ -615,14 +750,27 @@
 	"SETTINGS_FILE" : "X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/pcbuilder_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "X:/qtproj/pcbuilder/buildeditdialog.cpp", "MU", null ],
-		[ "X:/qtproj/pcbuilder/buildtypeselection.cpp", "MU", null ],
-		[ "X:/qtproj/pcbuilder/componenttile.cpp", "MU", null ],
-		[ "X:/qtproj/pcbuilder/computerpart.cpp", "MU", null ],
-		[ "X:/qtproj/pcbuilder/editandmore.cpp", "MU", null ],
-		[ "X:/qtproj/pcbuilder/main.cpp", "MU", null ],
-		[ "X:/qtproj/pcbuilder/mainwindow.cpp", "MU", null ],
-		[ "X:/qtproj/pcbuilder/stackedbudgetbar.cpp", "MU", null ]
+		[ "X:/qtproj/pcbuilder/forms/addcomponentswindow.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/forms/buildeditdialog.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/forms/buildtypeselection.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/forms/mainwindow.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/build.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/case.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/component.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/componentfactory.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/componentlistwidget.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/componenttile.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/componentwidget.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/coolingsystem.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/editandmore.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/graphiccard.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/main.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/motherboard.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/processor.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/psu.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/ram.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/stackedbudgetbar.cpp", "MU", null ],
+		[ "X:/qtproj/pcbuilder/src/storage.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

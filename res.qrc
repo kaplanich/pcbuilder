@@ -5,5 +5,15 @@
         <file>resources/icons/loupe.png</file>
         <file>resources/icons/case.png</file>
         <file>resources/icons/Shhh.svg</file>
+        <file>resources/icons/14900k.jpg</file>
+        <file>resources/icons/cooler.png</file>
+        <file>resources/icons/motherboard.jpg</file>
+        <file>resources/icons/psu.jpg</file>
+        <file>resources/icons/ramfury.jpg</file>
+        <file>resources/icons/rtx4090.jpg</file>
+        <file>resources/icons/ssd.jpg</file>
+    </qresource>
+    <qresource prefix="/db">
+        <file>resources/db/request.sql</file>
     </qresource>
 </RCC>
