@@ -72,6 +72,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         src/build.cpp
         libs/componentlistwidget.h
         src/componentlistwidget.cpp
+        libs/ImageCache.h
     )
 
 # Define target properties for Android with Qt 6 as:

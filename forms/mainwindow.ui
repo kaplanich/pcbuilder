@@ -49,8 +49,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1392</width>
-         <height>1009</height>
+         <width>1409</width>
+         <height>927</height>
         </rect>
        </property>
        <property name="maximumSize">
@@ -697,6 +697,9 @@ QPushButton#editBtn {
                      </item>
                      <item>
                       <widget class="QWidget" name="horizontalWidget" native="true">
+                       <property name="enabled">
+                        <bool>true</bool>
+                       </property>
                        <layout class="QHBoxLayout" name="horizontalLayout_5">
                         <property name="leftMargin">
                          <number>0</number>
@@ -1053,20 +1056,42 @@ QPushButton#editBtn {
                             <rect>
                              <x>0</x>
                              <y>0</y>
-                             <width>824</width>
+                             <width>841</width>
                              <height>107</height>
                             </rect>
                            </property>
                            <property name="styleSheet">
                             <string notr="true"/>
                            </property>
-                           <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="0">
+                           <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="0,0">
                             <property name="leftMargin">
                              <number>0</number>
                             </property>
                             <property name="rightMargin">
                              <number>0</number>
                             </property>
+                            <item>
+                             <widget class="QLabel" name="label_19">
+                              <property name="enabled">
+                               <bool>true</bool>
+                              </property>
+                              <property name="font">
+                               <font>
+                                <pointsize>14</pointsize>
+                                <fontweight>Medium</fontweight>
+                               </font>
+                              </property>
+                              <property name="styleSheet">
+                               <string notr="true">color: rgba(240, 240, 240, 0.25);</string>
+                              </property>
+                              <property name="text">
+                               <string>Click &quot;Add&quot; to choose components</string>
+                              </property>
+                              <property name="alignment">
+                               <set>Qt::AlignmentFlag::AlignCenter</set>
+                              </property>
+                             </widget>
+                            </item>
                             <item>
                              <layout class="QHBoxLayout" name="horizontalLayout_10">
                               <property name="spacing">
@@ -1075,28 +1100,6 @@ QPushButton#editBtn {
                               <property name="sizeConstraint">
                                <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
                               </property>
-                              <item>
-                               <widget class="QLabel" name="label_19">
-                                <property name="enabled">
-                                 <bool>true</bool>
-                                </property>
-                                <property name="font">
-                                 <font>
-                                  <pointsize>14</pointsize>
-                                  <fontweight>Medium</fontweight>
-                                 </font>
-                                </property>
-                                <property name="styleSheet">
-                                 <string notr="true">color: rgba(240, 240, 240, 0.25);</string>
-                                </property>
-                                <property name="text">
-                                 <string>Click &quot;Add&quot; to choose components</string>
-                                </property>
-                                <property name="alignment">
-                                 <set>Qt::AlignmentFlag::AlignCenter</set>
-                                </property>
-                               </widget>
-                              </item>
                              </layout>
                             </item>
                            </layout>
@@ -1563,7 +1566,7 @@ QPushButton:hover {
             <item>
              <widget class="QWidget" name="Components" native="true">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
@@ -1574,7 +1577,10 @@ border-radius: 21px;
 
 </string>
               </property>
-              <layout class="QVBoxLayout" name="verticalLayout_13">
+              <layout class="QVBoxLayout" name="verticalLayout_13" stretch="0,0">
+               <property name="sizeConstraint">
+                <enum>QLayout::SizeConstraint::SetMinimumSize</enum>
+               </property>
                <property name="leftMargin">
                 <number>20</number>
                </property>
@@ -1582,8 +1588,26 @@ border-radius: 21px;
                 <number>20</number>
                </property>
                <item>
-                <widget class="QWidget" name="widget_6" native="true">
+                <widget class="QWidget" name="listHeader" native="true">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>50</height>
+                  </size>
+                 </property>
                  <layout class="QHBoxLayout" name="horizontalLayout_12">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
                   <item>
                    <widget class="QLabel" name="label_12">
                     <property name="font">
@@ -1610,7 +1634,7 @@ border-radius: 21px;
                    </spacer>
                   </item>
                   <item>
-                   <widget class="QPushButton" name="pushButton_4">
+                   <widget class="QPushButton" name="addComponent">
                     <property name="minimumSize">
                      <size>
                       <width>60</width>
@@ -1636,34 +1660,65 @@ QPushButton:hover {
                 </widget>
                </item>
                <item>
-                <widget class="QWidget" name="widget_8" native="true">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>80</height>
-                  </size>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <fontweight>Medium</fontweight>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">background-color: rgba(35, 35, 35, 1)</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QWidget" name="widget_9" native="true">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>80</height>
-                  </size>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">background-color: rgba(35, 35, 35, 1)</string>
-                 </property>
+                <widget class="QWidget" name="listMain" native="true">
+                 <layout class="QVBoxLayout" name="verticalLayout_14">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_20">
+                    <property name="font">
+                     <font>
+                      <pointsize>14</pointsize>
+                      <fontweight>Medium</fontweight>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgba(240, 240, 240, 0.25);</string>
+                    </property>
+                    <property name="text">
+                     <string>Empty</string>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>false</bool>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignmentFlag::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="componentsList">
+                    <property name="spacing">
+                     <number>15</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                   </layout>
+                  </item>
+                 </layout>
                 </widget>
                </item>
               </layout>

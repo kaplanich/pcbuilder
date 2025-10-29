@@ -40,7 +40,7 @@ void AddComponentsWindow::showComponents() {
     model->setQuery(queryStr, db);
 
     while (query.next()) {
-        ComponentWidget* widget = new ComponentWidget(query.record());
+        ComponentWidget* widget = new ComponentWidget(query.record(),this);
         ui->componentsList->layout()->addWidget(widget);
 
         connect(widget, &ComponentWidget::componentAdded, this, &AddComponentsWindow::onComponentAdded);

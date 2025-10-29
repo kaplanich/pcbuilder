@@ -573,6 +573,12 @@
 			null
 		],
 		[
+			"X:/qtproj/pcbuilder/libs/ImageCache.h",
+			"MU",
+			"FPDX4F53LH/moc_ImageCache.cpp",
+			null
+		],
+		[
 			"X:/qtproj/pcbuilder/libs/build.h",
 			"MU",
 			"FPDX4F53LH/moc_build.cpp",

@@ -1,6 +1,8 @@
 X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/QM7UNKGVG2/moc_addcomponentswindow.cpp: X:/qtproj/pcbuilder/forms/addcomponentswindow.h \
   X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/moc_predefs.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/QDir \
+  X:/qt/6.9.1/mingw_64/include/QtCore/QHash \
+  X:/qt/6.9.1/mingw_64/include/QtCore/QString \
   X:/qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/q20functional.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/q20iterator.h \
@@ -140,6 +142,7 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/6.9.1/mingw_64/include/QtCore/qxptype_traits.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qyieldcpu.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/QPainter \
+  X:/qt/6.9.1/mingw_64/include/QtGui/QPixmap \
   X:/qt/6.9.1/mingw_64/include/QtGui/qaction.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qbrush.h \
@@ -446,4 +449,5 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+  X:/qtproj/pcbuilder/libs/ImageCache.h \
   X:/qtproj/pcbuilder/libs/componentwidget.h

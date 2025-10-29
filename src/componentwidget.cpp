@@ -5,9 +5,9 @@ ComponentWidget::ComponentWidget(const QSqlRecord& record, QWidget* parent) : m_
     QString type = record.value("type").toString();
     QPushButton* add = new QPushButton("+",this);
     QPushButton* more = new QPushButton("More info",this);
-    QLabel* img = new QLabel(this);
+    QLabel* img =  new QLabel(this);
 
-    img->setPixmap(record.value("Image").toString());
+    img->setPixmap(ImageCache::get(record.value("Image").toString()));
     img->setFixedSize(60,60);
     img->setScaledContents(true);
     add->setFixedSize(40,40);
@@ -102,6 +102,7 @@ void ComponentWidget::addMotherboardField(QHBoxLayout* layout, const QSqlRecord&
 void ComponentWidget::paintEvent(QPaintEvent *e)
 {
     QPainter painter(this);
+    painter.setRenderHint(QPainter::Antialiasing);
 
     painter.setPen(QColor::fromRgb(24, 24,24));
     painter.drawRoundedRect(0,5,width()-5, height()-7,3,3);

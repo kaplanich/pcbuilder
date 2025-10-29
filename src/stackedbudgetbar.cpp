@@ -1,8 +1,11 @@
 #include "./libs/stackedbudgetbar.h"
 
+
 StackedBudgetBar::StackedBudgetBar(QWidget *parent)
     : QWidget(parent)
-{}
+{
+
+}
 
 void StackedBudgetBar::setSelectedIndex(int index) {
     if (index >= 0 && index < static_cast<int>(m_components.size())) {
@@ -12,6 +15,7 @@ void StackedBudgetBar::setSelectedIndex(int index) {
 }
 
 void StackedBudgetBar::setComponents(const std::unordered_map<QString, Component> components) {
+    m_selectedIndex = -1;
     m_components.clear();
     for (const auto& c : components)
         if(!c.second.name().isEmpty())

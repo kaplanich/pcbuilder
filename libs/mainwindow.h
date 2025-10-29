@@ -3,15 +3,16 @@
 
 #include <QMainWindow>
 #include <QSqlrecord>
-#include "./libs/stackedbudgetbar.h"
-#include "./forms/buildtypeselection.h"
-#include "./libs/editandmore.h"
-#include "./forms/buildeditdialog.h"
-#include "./libs/componenttile.h"
-#include "./forms/addcomponentswindow.h"
-#include "./libs/ComponentsLib.h"
-#include "./libs/componentfactory.h"
-#include "./libs/build.h"
+#include "libs/stackedbudgetbar.h"
+#include "forms/buildtypeselection.h"
+#include "libs/editandmore.h"
+#include "forms/buildeditdialog.h"
+#include "libs/componenttile.h"
+#include "forms/addcomponentswindow.h"
+#include "libs/ComponentsLib.h"
+#include "libs/componentfactory.h"
+#include "libs/build.h"
+#include "libs/componentlistwidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -27,13 +28,17 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    void registerAll();
+    void refreshAll();
+
+    void refreshComponentsLabels();
 
 private slots:
 
     void BuildEditDialogInvoke();
 
     void refreshTiles();
+
+    void refreshListItems();
 
     void refreshCost();
 
@@ -49,7 +54,13 @@ private slots:
 
     void on_support_clicked();
 
-    void on_pushButton_4_clicked();
+    void on_addComponent_clicked();
+
+    void clearLayout(QBoxLayout& lay);
+
+    void registerAll();
+
+    void onComponentDeleted(QString type);
 
 private:
     Ui::MainWindow *ui;

@@ -1,5 +1,8 @@
 X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/FPDX4F53LH/moc_componentlistwidget.cpp: X:/qtproj/pcbuilder/libs/componentlistwidget.h \
   X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/moc_predefs.h \
+  X:/qt/6.9.1/mingw_64/include/QtCore/QObject \
+  X:/qt/6.9.1/mingw_64/include/QtCore/QString \
+  X:/qt/6.9.1/mingw_64/include/QtCore/QVariant \
   X:/qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/q20functional.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/q20iterator.h \
@@ -47,6 +50,7 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/6.9.1/mingw_64/include/QtCore/qglobalstatic.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qhash.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qhashfunctions.h \
+  X:/qt/6.9.1/mingw_64/include/QtCore/qiodevice.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qiodevicebase.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qiterable.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qiterator.h \
@@ -119,12 +123,14 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/6.9.1/mingw_64/include/QtCore/qtversionchecks.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qtypeinfo.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qtypes.h \
+  X:/qt/6.9.1/mingw_64/include/QtCore/qurl.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qutf8stringview.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qvariant.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qvarlengtharray.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qversiontagging.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qxptype_traits.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/qyieldcpu.h \
+  X:/qt/6.9.1/mingw_64/include/QtGui/QPainter \
   X:/qt/6.9.1/mingw_64/include/QtGui/qaction.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qbrush.h \
@@ -138,20 +144,41 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/6.9.1/mingw_64/include/QtGui/qimage.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qkeysequence.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qpaintdevice.h \
+  X:/qt/6.9.1/mingw_64/include/QtGui/qpainter.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qpalette.h \
+  X:/qt/6.9.1/mingw_64/include/QtGui/qpen.h \
+  X:/qt/6.9.1/mingw_64/include/QtGui/qpicture.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qpixelformat.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qpixmap.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qpolygon.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qregion.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qrgb.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qrgba64.h \
+  X:/qt/6.9.1/mingw_64/include/QtGui/qtextdocument.h \
+  X:/qt/6.9.1/mingw_64/include/QtGui/qtextoption.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qtgui-config.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qtguiexports.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qtguiglobal.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qtransform.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qwindowdefs.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+  X:/qt/6.9.1/mingw_64/include/QtSql/QSqlRecord \
+  X:/qt/6.9.1/mingw_64/include/QtSql/qsqlrecord.h \
+  X:/qt/6.9.1/mingw_64/include/QtSql/qtsql-config.h \
+  X:/qt/6.9.1/mingw_64/include/QtSql/qtsqlexports.h \
+  X:/qt/6.9.1/mingw_64/include/QtSql/qtsqlglobal.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/QHBoxLayout \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/QLabel \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/QPushButton \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/QWidget \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qboxlayout.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qframe.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qgridlayout.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qlabel.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qlayout.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+  X:/qt/6.9.1/mingw_64/include/QtWidgets/qpushbutton.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   X:/qt/6.9.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -367,4 +394,15 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+  X:/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  X:/qtproj/pcbuilder/libs/ComponentsLib.h \
+  X:/qtproj/pcbuilder/libs/build.h \
+  X:/qtproj/pcbuilder/libs/case.h \
+  X:/qtproj/pcbuilder/libs/component.h \
+  X:/qtproj/pcbuilder/libs/coolingsystem.h \
+  X:/qtproj/pcbuilder/libs/graphiccard.h \
+  X:/qtproj/pcbuilder/libs/motherboard.h \
+  X:/qtproj/pcbuilder/libs/processor.h \
+  X:/qtproj/pcbuilder/libs/psu.h \
+  X:/qtproj/pcbuilder/libs/ram.h \
+  X:/qtproj/pcbuilder/libs/storage.h

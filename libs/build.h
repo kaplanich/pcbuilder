@@ -7,10 +7,12 @@ class Build
 {
 public:
     Build();
-    void addComponent(Component& c);
+    void addComponent(Component* c);
     void calculateTotalCost();
     std::unordered_map<QString, Component> getAllComponents() const {return m_components;}
     int getTotalCost() const {return m_totalcost;}
+    void deleteComponent(QString type);
+
 
 private:
     int m_totalcost = 0;

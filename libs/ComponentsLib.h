@@ -1,7 +1,6 @@
 #ifndef COMPONENTSLIB_H
 #define COMPONENTSLIB_H
 
-
 #include "graphiccard.h"
 #include "processor.h"
 #include "ram.h"

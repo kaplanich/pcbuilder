@@ -2,6 +2,7 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/moc_predefs.h \
   X:/qt/6.9.1/mingw_64/include/QtCore/QDebug \
   X:/qt/6.9.1/mingw_64/include/QtCore/QDir \
+  X:/qt/6.9.1/mingw_64/include/QtCore/QHash \
   X:/qt/6.9.1/mingw_64/include/QtCore/QObject \
   X:/qt/6.9.1/mingw_64/include/QtCore/QString \
   X:/qt/6.9.1/mingw_64/include/QtCore/QVariant \
@@ -146,6 +147,7 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qt/6.9.1/mingw_64/include/QtCore/qyieldcpu.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/QPainter \
   X:/qt/6.9.1/mingw_64/include/QtGui/QPainterPath \
+  X:/qt/6.9.1/mingw_64/include/QtGui/QPixmap \
   X:/qt/6.9.1/mingw_64/include/QtGui/qaction.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
   X:/qt/6.9.1/mingw_64/include/QtGui/qbrush.h \
@@ -479,10 +481,12 @@ X:/qtproj/pcbuilder/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/pcbuilder_autogen/
   X:/qtproj/pcbuilder/forms/buildeditdialog.h \
   X:/qtproj/pcbuilder/forms/buildtypeselection.h \
   X:/qtproj/pcbuilder/libs/ComponentsLib.h \
+  X:/qtproj/pcbuilder/libs/ImageCache.h \
   X:/qtproj/pcbuilder/libs/build.h \
   X:/qtproj/pcbuilder/libs/case.h \
   X:/qtproj/pcbuilder/libs/component.h \
   X:/qtproj/pcbuilder/libs/componentfactory.h \
+  X:/qtproj/pcbuilder/libs/componentlistwidget.h \
   X:/qtproj/pcbuilder/libs/componenttile.h \
   X:/qtproj/pcbuilder/libs/componentwidget.h \
   X:/qtproj/pcbuilder/libs/coolingsystem.h \

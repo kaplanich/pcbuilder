@@ -1,6 +1,7 @@
 pcbuilder_autogen/timestamp: \
 	X:/qt/6.9.1/mingw_64/include/QtCore/QDebug \
 	X:/qt/6.9.1/mingw_64/include/QtCore/QDir \
+	X:/qt/6.9.1/mingw_64/include/QtCore/QHash \
 	X:/qt/6.9.1/mingw_64/include/QtCore/QObject \
 	X:/qt/6.9.1/mingw_64/include/QtCore/QString \
 	X:/qt/6.9.1/mingw_64/include/QtCore/QVariant \
@@ -145,6 +146,7 @@ pcbuilder_autogen/timestamp: \
 	X:/qt/6.9.1/mingw_64/include/QtCore/qyieldcpu.h \
 	X:/qt/6.9.1/mingw_64/include/QtGui/QPainter \
 	X:/qt/6.9.1/mingw_64/include/QtGui/QPainterPath \
+	X:/qt/6.9.1/mingw_64/include/QtGui/QPixmap \
 	X:/qt/6.9.1/mingw_64/include/QtGui/qaction.h \
 	X:/qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
 	X:/qt/6.9.1/mingw_64/include/QtGui/qbrush.h \
@@ -731,6 +733,7 @@ pcbuilder_autogen/timestamp: \
 	X:/qtproj/pcbuilder/forms/buildtypeselection.h \
 	X:/qtproj/pcbuilder/forms/mainwindow.cpp \
 	X:/qtproj/pcbuilder/libs/ComponentsLib.h \
+	X:/qtproj/pcbuilder/libs/ImageCache.h \
 	X:/qtproj/pcbuilder/libs/build.h \
 	X:/qtproj/pcbuilder/libs/case.h \
 	X:/qtproj/pcbuilder/libs/component.h \

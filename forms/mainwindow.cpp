@@ -1,6 +1,7 @@
 #include "libs/mainwindow.h"
 #include "ui_mainwindow.h"
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -9,7 +10,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     on_curBuild_clicked();
-
     registerAll();
 
     build = new Build();
@@ -28,26 +28,9 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_selectTypeBtn_clicked()
-{
-    BuildTypeSelection buildType(this);
-    buildType.setModal(true);
-    if(buildType.exec()) {
-        ui->selectTypeBtn->setText(buildType.typeLetter());
-    }
-}
-
 void MainWindow::refreshTiles()
 {
-    QLayoutItem *item;
-    while ((item = ui->horizontalLayout_10->takeAt(0)) != nullptr) {
-        if (item->widget())
-            delete item->widget();
-    }
-
-    delete item;
-
-    m_tiles.clear();
+    clearLayout(*ui->horizontalLayout_10);
 
     int i = 0;
 
@@ -70,6 +53,80 @@ void MainWindow::refreshTiles()
     }
 }
 
+void MainWindow::refreshListItems()
+{
+    clearLayout(*ui->componentsList);
+
+    for (auto& c: build->getAllComponents()) {
+
+        if(c.second.name().isEmpty()) continue;
+        ComponentListWidget* listItem = new ComponentListWidget(c.second, this);
+        ui->componentsList->addWidget(listItem, 0);
+        connect(listItem, &ComponentListWidget::componentDeleted, this, &MainWindow::onComponentDeleted);
+    }
+}
+
+void MainWindow::refreshCost()
+{
+    ui->label_10->setText('$' + QString::number(build->getTotalCost()));
+    ui->label_14->setText('$' + QString::number(build->getTotalCost()));
+
+    int diff = ui->label_5->text().remove(0,1).toInt() - build->getTotalCost();
+
+    QString diffLbl = -diff < 0? "-$" + QString::number(diff) : "+$" + QString::number(-diff);
+    ui->label_11->setText(diffLbl);
+}
+
+void MainWindow::refreshAll()
+{
+    refreshListItems();
+    refreshTiles();
+    refreshCost();
+    refreshComponentsLabels();
+}
+
+void MainWindow::refreshComponentsLabels()
+{
+    if(build->getTotalCost() > 0) {
+        ui->label_19->setVisible(false);
+        ui->label_20->setVisible(false);
+    } else {
+        ui->label_19->setVisible(true);
+        ui->label_20->setVisible(true);
+    }
+}
+
+void MainWindow::on_addComponent_clicked()
+{
+    AddComponentsWindow addComp(this);
+    addComp.setModal(true);
+    if(addComp.exec()) {
+        QSqlRecord rec = addComp.getSelectedComponent();
+        Component* component = ComponentFactory::instance().create(rec);
+        build->addComponent(component);
+        bar->setComponents(build->getAllComponents());
+        refreshAll();
+    }
+}
+void MainWindow::onComponentDeleted(QString type) {
+    build->deleteComponent(type);
+    bar->setComponents(build->getAllComponents());
+    refreshAll();
+}
+
+void MainWindow::registerAll()
+{
+    auto& factory = ComponentFactory::instance();
+    factory.registerType<Processor>("cpu");
+    factory.registerType<GraphicCard>("gpu");
+    factory.registerType<Ram>("ram");
+    factory.registerType<Motherboard>("motherboard");
+    factory.registerType<Storage>("storage");
+    factory.registerType<CoolingSystem>("cooling");
+    factory.registerType<Case>("case");
+    factory.registerType<Psu>("psu");
+}
+
 void MainWindow::BuildEditDialogInvoke()
 {
     BuildEditDialog dlg(this);
@@ -90,46 +147,27 @@ void MainWindow::BuildEditDialogInvoke()
     }
 }
 
-
-void MainWindow::refreshCost()
+void MainWindow::on_selectTypeBtn_clicked()
 {
-    ui->label_10->setText('$' + QString::number(build->getTotalCost()));
-    ui->label_14->setText('$' + QString::number(build->getTotalCost()));
-
-    int diff = ui->label_5->text().remove(0,1).toInt() - build->getTotalCost();
-
-    QString diffLbl = -diff < 0? "-$" + QString::number(diff) : "+$" + QString::number(-diff);
-    ui->label_11->setText(diffLbl);
-}
-
-void MainWindow::on_pushButton_4_clicked()
-{
-    AddComponentsWindow addComp(this);
-    addComp.setModal(true);
-    if(addComp.exec()) {
-        QSqlRecord rec = addComp.getSelectedComponent();
-        Component* component = ComponentFactory::instance().create(rec);
-        build->addComponent(*component);
-        qDebug() << build->getTotalCost();
-        bar->setComponents(build->getAllComponents());
-        refreshCost();
-        refreshTiles();
+    BuildTypeSelection buildType(this);
+    buildType.setModal(true);
+    if(buildType.exec()) {
+        ui->selectTypeBtn->setText(buildType.typeLetter());
     }
 }
 
-void MainWindow::registerAll()
+void MainWindow::clearLayout(QBoxLayout& lay)
 {
-    auto& factory = ComponentFactory::instance();
-    factory.registerType<Processor>("cpu");
-    factory.registerType<GraphicCard>("gpu");
-    factory.registerType<Ram>("ram");
-    factory.registerType<Motherboard>("motherboard");
-    factory.registerType<Storage>("storage");
-    factory.registerType<CoolingSystem>("cooling");
-    factory.registerType<Case>("case");
-    factory.registerType<Psu>("psu");
-}
+    QLayoutItem *item;
+    while ((item = lay.takeAt(0)) != nullptr) {
+        if (item->widget())
+            delete item->widget();
+    }
 
+    delete item;
+
+    m_tiles.clear();
+}
 
 void MainWindow::on_curBuild_clicked()
 {

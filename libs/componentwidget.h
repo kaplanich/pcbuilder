@@ -7,6 +7,7 @@
 #include <QSqlRecord>
 #include <QPushButton>
 #include <QPainter>
+#include "ImageCache.h"
 
 class ComponentWidget : public QWidget
 {
